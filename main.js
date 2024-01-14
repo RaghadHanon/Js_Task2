@@ -14,9 +14,9 @@ convertForm.onsubmit = function(e){
   
   var result = document.querySelector('.result');
   if(coin=='dollar')
-    result.textContent= amount/3.73  ;
+    result.textContent= amount / 3.73  ;
   else if(coin=='dinar')
-    result.textContent= amount/5.26 ;
+    result.textContent= amount / 5.26 ;
   else 
     result.textContent= amount ;
     
